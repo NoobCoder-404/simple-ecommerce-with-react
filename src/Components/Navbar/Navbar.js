@@ -13,10 +13,10 @@ const Navbar = () => {
 
         <div className="flex-none gap-2">
           <div className="text-white text-lg nav-item hidden lg:block">
-            <a href="">Order</a>
-            <a href="">Order Review</a>
-            <a href="">Manage Inventory</a>
-            <a href="">Login</a>
+            <a href="./order">Order</a>
+            <a href="./order_review">Order Review</a>
+            <a href="./manage_inventory">Manage Inventory</a>
+            <a href="./login">Login</a>
           </div>
           <div className="dropdown dropdown-end lg:md:hidden">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
